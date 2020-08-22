@@ -23,7 +23,7 @@ namespace L2DamageCalculator
                     if(firstNumber<= 2147483648)
                     return firstNumber;
                     else
-                        Console.WriteLine("So big mage attack, fkn moder");
+                        Console.WriteLine("So big value, fkn moder!");
                 }
                 catch (Exception)
                 {
