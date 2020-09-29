@@ -33,8 +33,8 @@ namespace L2DamageCalculator
 			Console.WriteLine(new string('_', 30));
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine("Pure mage damage: {0}", (int)result);
-			Console.WriteLine("Blunt weapon damage {0} - {1}", (int)result * 0.8, (int)result * 1.2); // +-20%
-			Console.WriteLine("Sword weapon damage {0} - {1}", (int)result * 0.9, (int)result * 1.1); //+-10%
+			Console.WriteLine("Blunt weapon damage {0} - {1}", (int)(result * 0.8), (int)(result * 1.2)); // +-20%
+			Console.WriteLine("Sword weapon damage {0} - {1}", (int)(result * 0.9), (int)(result * 1.1)); //+-10%
 			Console.ForegroundColor = ConsoleColor.Gray;
 
 		}
